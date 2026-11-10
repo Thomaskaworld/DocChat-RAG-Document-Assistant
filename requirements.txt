@@ -1,0 +1,25 @@
+# DocChat · Mini Project 3 (Day 39)
+# python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
+# Python 3.10+
+
+# --- document loading & chunking ---
+pypdf>=4.2.0
+langchain-text-splitters>=0.2.0
+
+# --- local embeddings (no API key, ~80 MB model, CPU is fine) ---
+sentence-transformers>=3.0.0
+
+# --- vector store ---
+chromadb>=0.5.0
+
+# --- LLM client: works with Gemini, Groq, OpenAI, OpenRouter, Together and local Ollama ---
+openai>=1.40.0
+python-dotenv>=1.0.0
+
+# --- UI ---
+streamlit>=1.36.0
+
+# --- optional stretch goals (uncomment when you get there) ---
+# rank_bm25>=0.2.2          # hybrid search (BM25 + dense, fused with RRF)
+# ragas>=0.2.0              # evaluation: faithfulness, context precision/recall
+# datasets>=2.19.0          # required by ragas

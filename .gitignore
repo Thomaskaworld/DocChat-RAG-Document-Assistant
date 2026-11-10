@@ -1,0 +1,32 @@
+# --- secrets: never commit these ---
+.env
+.streamlit/secrets.toml
+*.key
+
+# --- your own documents: resumes, offer letters, contracts. Keep them off GitHub. ---
+docs/
+*.pdf
+
+# --- generated vector store ---
+chroma_db/
+*.sqlite3
+
+# --- model / HF caches ---
+.cache/
+models/
+
+# --- python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+*.egg-info/
+
+# --- os / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+test_gemini.py
