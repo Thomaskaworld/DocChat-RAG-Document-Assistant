@@ -204,3 +204,7 @@ Tag it with **#RAG #LangChain #VectorDatabase #GenAI**, link the repo, and add *
 | `app.py` | Streamlit chat UI: upload files, ask questions, expand the source chunks. |
 | `requirements.txt` | Pinned-enough dependency list. |
 | `.gitignore` | Keeps `chroma_db/`, `docs/` and your `.env` out of git. **Never commit your resume or your API key.** |
+Live application: https://docchat-rag-assistant.streamlit.app/
+
+
+
